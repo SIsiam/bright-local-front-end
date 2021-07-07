@@ -1,0 +1,17 @@
+.sponsorHeading {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.gallary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch
+}

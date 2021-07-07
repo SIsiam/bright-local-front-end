@@ -1,0 +1,20 @@
+.medel {
+    margin: 100px 5% 100px 5% ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 40px;
+    justify-content: center;
+}
+.img {
+    padding: 20px;
+    margin-top: 10px;
+}
+.heder {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.bold {
+    font-weight: 800;
+}

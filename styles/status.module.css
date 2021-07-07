@@ -1,0 +1,40 @@
+
+.statusContainer {
+    display: grid;
+    margin: 0 auto;
+    padding: 10px 0;
+    grid-template-columns: 2fr 1fr;
+    margin: 50px 5% 50px 5%;
+    grid-gap: 40px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    background-color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: #252d13;
+    font-weight: 600;
+    text-align: center;
+}
+
+.ceo {
+    width: auto;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 0 16px rgb(0 0 0 / 10%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+}
+.info{
+    color: #a5c559;
+    font-style: italic;
+}

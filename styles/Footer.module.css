@@ -1,0 +1,44 @@
+.layout {
+    display: grid;
+    max-width: calc(1440px - 40px);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 32px;
+    justify-items: start;
+    align-items: top;
+}
+.title {
+    margin: 0 auto 16px;
+    padding: 0 0 6px;
+    border-bottom: 1px solid #dadada;
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+.list li {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hypen li a::before{
+    content: " - ";
+    font-size: 28px;
+    padding: 20px;
+}
+
+.list li a {
+    text-decoration: none;
+    font-weight: 500;
+    color:#547bba;
+    font-size: 17px;
+    line-height: 40px;
+    cursor: pointer;
+    padding: 20px;
+}
+.list li a:hover {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color:#000;
+}
+

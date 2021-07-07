@@ -1,0 +1,39 @@
+.cardContainer {
+    margin: 30px 10% 30px 10% ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 40px;
+}
+.blurb {
+    justify-content: center;
+    padding: 25px 25px 0 25px;
+    transform: translateY(-48px);
+    background-color: transparent;
+    background-size: 101% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url('https://www.brightlocal.com/wp-content/themes/brightlocal/assets/images/testimonial_shape_2.svg');
+}
+
+.blurbText {
+    font-weight: 600;
+    line-height: 29px;
+    font-size: 16px;
+}
+.blurbTextEnd {
+    font-weight: 700;
+}
+.shadow{
+    border-radius: 15px;
+    box-shadow: 0 20px 50px -25px rgb(0 0 0 / 50%);
+    overflow: hidden;
+    background-color: #fff;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+.lastHeading {
+    padding: 15px;
+}

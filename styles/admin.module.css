@@ -1,0 +1,51 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.formControl{
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px solid salmon
+}
+.form-container {
+    background-color: #cbff3c;
+    background-image: linear-gradient(225deg, #903cff 0%, #b57be7 50%, #a9c52b 100%);
+    padding: 2rem 0;
+    border-radius: 25px;
+    color: black;
+}
+@media screen and (max-width: 500px) {
+  .form-container  {
+    background-color: rgb(19, 188, 255);
+    width: 400px;
+  }
+}
+
+.submitBtn {
+    margin-top: 0.9rem;
+    padding: 0.6rem;
+    background-color: #4158D0;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 100%;
+    height: 50px;
+    padding: 14px 165px;
+    background-color: black;
+    color: white;
+    transition: 1s ease;
+}
+
+.booking-area {
+    margin: 250px auto;
+
+}
+.submitBtn:hover {
+    transition: 1s ease;
+    background-color: #fff;
+    color:#000
+}
