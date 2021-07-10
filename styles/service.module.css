@@ -1,0 +1,15 @@
+.layour{
+    margin: 100px 10% 20px 10%;
+    padding: 32px 16px;
+ }
+ .singleContainer {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-column-gap: 40px;
+     grid-row-gap: 40px;
+     margin: 130px 0 130px 0;
+ }
+ 
+ .img  {
+     width: 100%;
+ }

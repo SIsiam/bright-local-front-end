@@ -84,11 +84,15 @@ const admin = () => {
 
     return (
 
-        <div>
+        <div className="container">
+            <header className="header">
+                <h1 id="title" className="text-center">Admin Pannel</h1>
+                <p id="description" className="description text-center"> Added Your Data & see front-End Re Update Automatically  </p>
+            </header>
+
             <div >
-                <h1 className="d-flex justify-content-center">Added Data</h1>
                 <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
-                    <div className="form-group col-lg-10">
+                    <div className={styles.formGroup}>
                         <label >Data Name</label>
                         <input
                             name="name" required {...register("name", { required: true })}
@@ -97,7 +101,7 @@ const admin = () => {
                         />
                     </div>
 
-                    <div>
+                    <div className={styles.formGroup}>
                         <label >Greetings Name</label>
                         <input
                             name="placeName" {...register("placeName")}
@@ -106,7 +110,7 @@ const admin = () => {
                         />
                     </div>
 
-                    <div className="form-group col-lg-10 ">
+                    <div className={styles.formGroup}>
                         <label htmlFor="exampleFormControlTextarea1">short Description</label>
                         <textarea className={styles.formControl} id="exampleFormControlTextarea1" rows="3"
                             name="shortDescription"  {...register("shortDescription")}
@@ -114,23 +118,22 @@ const admin = () => {
                             type="text"></textarea>
                     </div>
 
-                    <div className="form-group col-lg-10 ">
+                    <div className={styles.formGroup}>
                         <label htmlFor="exampleFormControlTextarea1">Middle Description</label>
                         <textarea className={styles.formControl} id="exampleFormControlTextarea1" rows="3"
                             name="middleDescription"  {...register("middleDescription")}
                             type="text"></textarea>
                     </div>
 
-                    <div className="form-group col-lg-10">
+                    <div className={styles.formGroup}>
                         <label htmlFor="exampleFormControlTextarea1">End Description</label>
                         <textarea className={styles.formControl} id="exampleFormControlTextarea1" rows="3"
                             name="middleDescription"  {...register("endDescription")}
                             type="text"></textarea>
                     </div>
 
-                    <div>
-                        <label>Added Cover Photo</label>
-                        <br />
+                    <div className={styles.formGroup}>
+                        <label>Added Cover Image</label>
                         <input
                             name="img" type="file"
                             onChange={handleImageUpload}
@@ -138,9 +141,8 @@ const admin = () => {
                         />
                     </div>
 
-                    <div>
-                        <label>Added Cover Photo</label>
-                        <br />
+                    <div className={styles.formGroup}>
+                        <label>Added Second Cover Image</label>
                         <input
                             name="img" type="file"
                             onChange={handleImageUpload2}

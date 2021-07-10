@@ -28,7 +28,7 @@ const Header = () => {
                             </Link>
                         </div>
                         <div className="headerImg" >
-                            <Image src={header.imageURL} height={500} width={900} alt="Picture of the author" />
+                            <Image src={header.imageURL} height={550} width={1000} alt="Picture of the author" />
                         </div>
                     </div>
                 ))}
